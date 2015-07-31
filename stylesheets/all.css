@@ -9243,7 +9243,7 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
-/* line 11, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_animation.css.scss */
+/* line 11, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_animation.css.scss */
 .square {
   width: 200px;
   height: 200px;
@@ -9271,7 +9271,7 @@ button.close {
   100% {
     opacity: 1;
     top: 0; } }
-/* line 55, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_animation.css.scss */
+/* line 55, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_animation.css.scss */
 .fade-and-slide {
   position: relative;
   top: -20px;
@@ -9280,26 +9280,25 @@ button.close {
   -webkit-animation: fadeAndSlide 2s 1s ease forwards;
   -moz-animation: fadeAndSlide 2s 1s ease forwards; }
 
-/* line 1, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_footer.css.scss */
+/* line 1, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_footer.css.scss */
 #footer {
   background: #A2C7E5;
   padding: 30px 0;
-  color: white; }
-  /* line 5, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_footer.css.scss */
+  color: white;
+  font-size: 20px; }
+  /* line 6, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_footer.css.scss */
   #footer p {
-    font-size: 20px;
-    margin-top: 17px; }
-  /* line 9, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_footer.css.scss */
+    font-size: 20px; }
+  /* line 9, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_footer.css.scss */
   #footer ul {
     margin-top: 10px; }
-  /* line 12, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_footer.css.scss */
+  /* line 12, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_footer.css.scss */
   #footer a {
     color: #FF99C9;
     text-decoration: none;
     font-size: 20px;
-    letter-spacing: -1px;
     transition: color 0.5s ease; }
-    /* line 18, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_footer.css.scss */
+    /* line 17, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_footer.css.scss */
     #footer a:hover {
       color: white; }
 
@@ -9318,7 +9317,7 @@ button.close {
 /* -------------------------------------
  * SCSS code
  * ------------------------------------- */
-/* line 38, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+/* line 38, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   background: transparent;
   font-family: "Montserrat", "sans-serif";
@@ -9329,7 +9328,7 @@ button.close {
   border-bottom: 0 solid grey;
   min-height: 0;
   transition: background 0.4s ease; }
-  /* line 49, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+  /* line 49, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a,
   .navbar-wagon .navbar-nav > .open > a,
   .navbar-wagon .navbar-nav > li > a:focus,
@@ -9344,19 +9343,19 @@ button.close {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  /* line 65, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+  /* line 65, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a:hover,
   .navbar-wagon .navbar-nav > .open > a:hover {
     color: #FDB631;
     background-color: transparent; }
-  /* line 71, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+  /* line 71, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     outline: none;
     color: #69FFF1;
     padding-top: 15px;
     padding-bottom: 15px; }
-  /* line 79, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+  /* line 79, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a.btn {
     line-height: 40px;
     padding: 0 10px;
@@ -9366,30 +9365,30 @@ button.close {
     font-weight: bold;
     background-color: #FF99C9;
     font-size: 12px; }
-    /* line 88, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+    /* line 88, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
       background-color: #ff0078; }
-  /* line 93, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+  /* line 93, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 40px;
     padding: 0px; }
-  /* line 98, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+  /* line 98, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
     height: 36px;
     margin-right: 10px;
     border-radius: 50%; }
-  /* line 106, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+  /* line 106, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
     border-color: #dddddd;
     width: 45px;
     background: transparent; }
-  /* line 112, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+  /* line 112, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
     border-radius: 0;
     margin-top: 10px; }
-  /* line 117, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+  /* line 117, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9409,47 +9408,76 @@ button.close {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 140, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+  /* line 140, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px; }
-  /* line 143, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
+  /* line 143, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
     color: #69FFF1;
     padding-top: 0;
     padding-bottom: 0; } }
-/* line 1, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_utilities.css.scss */
+/* line 1, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_utilities.css.scss */
 .padded {
   padding-top: 8em;
   padding-bottom: 8em; }
 
-/* line 6, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/layout/_utilities.css.scss */
+/* line 6, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_utilities.css.scss */
+.padded-light {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+/* line 11, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/layout/_utilities.css.scss */
 h1, h2, h3, h4 {
   font-family: "Montserrat", "sans-serif"; }
 
-/* line 1, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/pages/_home.css.scss */
+/* line 1, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
 #banner {
   background-image: url("../images/background.jpg");
   color: white;
-  padding: 150px 0;
+  padding: 300px 0;
   background-size: cover;
   height: 650px;
   padding-left: 50px; }
-  /* line 9, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  /* line 9, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     font-size: 70px;
     color: white;
     font-family: "Montserrat", "sans-serif"; }
-  /* line 14, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  /* line 14, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
   #banner p {
     font-size: 25px;
-    font-weight: 100; }
+    font-weight: 100;
+    font-family: "Montserrat", "sans-serif"; }
 
-/* line 20, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/pages/_home.css.scss */
-#banner, #tour, #newsletter {
+/* line 21, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+.card {
+  padding: 10px;
+  font-weight: 300; }
+  /* line 24, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  .card h2 {
+    font-size: 22px; }
+
+/* line 29, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+.hotel {
+  background-color: white;
+  font-weight: 300;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px grey; }
+  /* line 34, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  .hotel h2 {
+    padding-top: 1em;
+    color: #A2C7E5;
+    font-size: 22px; }
+  /* line 39, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  .hotel a {
+    padding-bottom: 1em; }
+
+/* line 44, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+#banner, #hotel, #tour, #newsletter {
   position: relative; }
 
-/* line 24, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/pages/_home.css.scss */
+/* line 48, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
 .scroll-btn {
   position: absolute;
   width: 100px;
@@ -9459,11 +9487,49 @@ h1, h2, h3, h4 {
   text-align: center;
   font-size: 60px;
   color: white; }
-  /* line 33, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  /* line 57, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
   .scroll-btn:hover {
     color: white; }
 
-/* line 1, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 62, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+#hotel {
+  background-image: url("../images/background.jpg");
+  color: white;
+  padding: 300px 0;
+  background-size: cover;
+  height: 650px;
+  padding-left: 50px; }
+  /* line 70, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  #hotel h1 {
+    font-size: 70px;
+    color: white;
+    font-family: "Montserrat", "sans-serif"; }
+  /* line 75, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  #hotel p {
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Montserrat", "sans-serif"; }
+
+/* line 82, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+.rsvp {
+  background-color: white;
+  font-weight: 300;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px grey;
+  padding: 1em; }
+  /* line 88, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  .rsvp h1 {
+    color: #A2C7E5; }
+  /* line 91, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  .rsvp h2 {
+    padding-top: 1em;
+    color: #A2C7E5;
+    font-size: 22px; }
+  /* line 96, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  .rsvp a {
+    padding-bottom: 1em; }
+
+/* line 1, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
@@ -9504,7 +9570,7 @@ h1, h2, h3, h4 {
 slideUp
 ==============================================
 */
-/* line 63, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 63, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
@@ -9545,7 +9611,7 @@ slideUp
 slideLeft
 ==============================================
 */
-/* line 125, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 125, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideLeft {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
@@ -9586,7 +9652,7 @@ slideLeft
 slideRight
 ==============================================
 */
-/* line 187, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 187, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideRight {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
@@ -9627,7 +9693,7 @@ slideRight
 slideExpandUp
 ==============================================
 */
-/* line 249, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 249, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideExpandUp {
   animation-name: slideExpandUp;
   -webkit-animation-name: slideExpandUp;
@@ -9680,7 +9746,7 @@ slideExpandUp
 expandUp
 ==============================================
 */
-/* line 329, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 329, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandUp {
   animation-name: expandUp;
   -webkit-animation-name: expandUp;
@@ -9713,7 +9779,7 @@ expandUp
 fadeIn
 ==============================================
 */
-/* line 378, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 378, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .fadeIn {
   animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
@@ -9752,7 +9818,7 @@ fadeIn
 expandOpen
 ==============================================
 */
-/* line 434, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 434, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandOpen {
   animation-name: expandOpen;
   -webkit-animation-name: expandOpen;
@@ -9789,7 +9855,7 @@ expandOpen
 bigEntrance
 ==============================================
 */
-/* line 490, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 490, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bigEntrance {
   animation-name: bigEntrance;
   -webkit-animation-name: bigEntrance;
@@ -9848,7 +9914,7 @@ bigEntrance
 hatch
 ==============================================
 */
-/* line 571, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 571, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .hatch {
   animation-name: hatch;
   -webkit-animation-name: hatch;
@@ -9896,7 +9962,7 @@ hatch
 bounce
 ==============================================
 */
-/* line 644, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 644, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bounce {
   animation-name: bounce;
   -webkit-animation-name: bounce;
@@ -9939,7 +10005,7 @@ bounce
 pulse
 ==============================================
 */
-/* line 708, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 708, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pulse {
   animation-name: pulse;
   -webkit-animation-name: pulse;
@@ -9973,7 +10039,7 @@ pulse
 floating
 ==============================================
 */
-/* line 755, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 755, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .floating {
   animation-name: floating;
   -webkit-animation-name: floating;
@@ -10001,7 +10067,7 @@ floating
 tossing
 ==============================================
 */
-/* line 796, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 796, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .tossing {
   animation-name: tossing;
   -webkit-animation-name: tossing;
@@ -10029,7 +10095,7 @@ tossing
 pullUp
 ==============================================
 */
-/* line 837, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 837, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullUp {
   animation-name: pullUp;
   -webkit-animation-name: pullUp;
@@ -10076,7 +10142,7 @@ pullUp
 pullDown
 ==============================================
 */
-/* line 906, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 906, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullDown {
   animation-name: pullDown;
   -webkit-animation-name: pullDown;
@@ -10123,7 +10189,7 @@ pullDown
 stretchLeft
 ==============================================
 */
-/* line 975, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 975, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchLeft {
   animation-name: stretchLeft;
   -webkit-animation-name: stretchLeft;
@@ -10170,7 +10236,7 @@ stretchLeft
 stretchRight
 ==============================================
 */
-/* line 1044, /Users/Charlou/Downloads/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 1044, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchRight {
   animation-name: stretchRight;
   -webkit-animation-name: stretchRight;

@@ -43,7 +43,10 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-<a href="hotel.html">                <i class="fa fa-dollar"></i> Hôtels
+<a href="./">                <i class="fa fa-home"></i> Accueil
+</a>            </li>
+            <li>
+<a href="hotels.html">                <i class="fa fa-bed"></i> Hôtels
 </a>            </li>
             <li>
               <a href="access.html">
@@ -54,11 +57,11 @@
                 <i class="fa fa-camera"></i> Photos</a>
             </li>
             <li>
-              <a href="http://www.1001listes.com">
+              <a href="https://www.1001listes.fr/moncompte/vueinvites/numLst/650731/pageName/listeCadeaux/">
                 <i class="fa fa-gift pulse"></i> Liste</a>
             </li>
             <li>
-              <a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">
+              <a href="index.html#RSVP" class="btn">
                 <i class="fa fa-bookmark"></i> RSVP</a>
             </li>
           </ul>
@@ -92,21 +95,21 @@
         <div class="card" data-sr="enter bottom and scale up 20% over 1.5s">
           <img src="images/cocktail.svg" />
           <h2>Cocktail</h2>
-          <p>Nom lieu<br>Lieu<br>19h00</p>
+          <p>Le Tiki<br>Lecci<br>19h00</p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
         <div class="card" data-sr="enter bottom and scale up 20% over 2s">
           <img src="images/diner.svg" />
           <h2>Diner</h2>
-          <p>Nom lieu<br>Lieu<br>19h00</p>
+          <p>Le Tiki<br>Lecci<br>20h30</p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
         <div class="card" data-sr="enter bottom and scale up 20% over 2.5s">
           <img src="images/party.svg" />
           <h2>Soirée</h2>
-          <p>Nom lieu<br>Lieu<br>19h00</p>
+          <p>Le Tiki<br>Lecci<br>23h00</p>
         </div>
       </div>
     </div>
@@ -119,21 +122,21 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
 <script type="text/javascript">
-var myLatlng = new google.maps.LatLng(48.852937,2.364178);
+var myLatlng = new google.maps.LatLng(41.6313011,9.3460118);
 
 var myOptions = {
   zoom: 16,
   center: myLatlng,
   scrollwheel: false,
   mapTypeId: google.maps.MapTypeId.ROADMAP,
-  styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+  styles: [{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"simplified"},{"hue":"#0066ff"},{"saturation":74},{"lightness":100}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"off"},{"weight":0.6},{"saturation":-85},{"lightness":61}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"simplified"},{"color":"#5f94ff"},{"lightness":26},{"gamma":5.86}]}]
 };
 
 var map = new google.maps.Map(document.getElementById('map'), myOptions);
 var marker = new google.maps.Marker({
   position: myLatlng,
   map: map,
-  title:"You are here!"
+  title:"C'est ici!"
 });
 </script>
 
@@ -159,6 +162,36 @@ $(function() {
 });
 </script>
 
+<div class="bg-primary padded-light" id="RSVP">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center rsvp">
+        <h1>RSVP</h1>
+          <div class="col-md-4 text-center">
+            <div class="input-group padded-light">
+              <input type="text" class="form-control" placeholder="Prénom">
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="input-group padded-light">
+              <input type="text" class="form-control" placeholder="Nom">
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="input-group padded-light">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="input-group padded-light">
+              <input type="text" class="form-control" placeholder="Message">
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
 
 
 
@@ -168,28 +201,16 @@ $(function() {
         <div class="row">
           <div class="col-xs-4">
             <ul class="list-inline">
-              <li><a href="www.1001listes.com"><i class="fa fa-gift"></i></a></li>
+              <li><a href="https://www.1001listes.fr/moncompte/vueinvites/numLst/650731/pageName/listeCadeaux/"><i class="fa fa-gift"></i></a></li>
               <li><a href=""><i class="fa fa-instagram"></i></a></li>
-              <li><a href=""><i class="fa fa-facebook"></i></a></li>
-              <li><a href=""><i class="fa fa-twitter"></i></a></li>
             </ul>
           </div>
-          <div class="col-xs-8 text-right">
+          <div class="col-xs-8 text-center">
             <p>Made with <i class="fa fa-heart pulse"></i> for Léa & Raphael by <a href="mailto:c.legras@icloud.com"> Charlou</a></p>
           </div>
         </div>
       </div>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-65834508-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
   </body>
 </html>
