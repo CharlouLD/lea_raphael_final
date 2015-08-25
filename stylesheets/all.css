@@ -9474,7 +9474,7 @@ h1, h2, h3, h4 {
     padding-bottom: 1em; }
 
 /* line 44, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
-#banner, #hotel, #tour, #newsletter {
+#banner, #hotel, #tour, #newsletter, #acces {
   position: relative; }
 
 /* line 48, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
@@ -9527,6 +9527,41 @@ h1, h2, h3, h4 {
     font-size: 22px; }
   /* line 96, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
   .rsvp a {
+    padding-bottom: 1em; }
+
+/* line 102, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+#banneraccess {
+  background-image: url("../images/access.jpg");
+  background-size: cover;
+  color: white;
+  padding: 300px 0;
+  height: 650px;
+  padding-left: 50px; }
+  /* line 110, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  #banneraccess h1 {
+    font-size: 70px;
+    color: white;
+    font-family: "Montserrat", "sans-serif"; }
+  /* line 115, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  #banneraccess p {
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Montserrat", "sans-serif"; }
+
+/* line 122, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+.access {
+  background-color: white;
+  font-weight: 300; }
+  /* line 125, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  .access h1 {
+    color: #A5AEC0; }
+  /* line 128, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  .access h2 {
+    padding-top: 1em;
+    color: #A2C7E5;
+    font-size: 22px; }
+  /* line 133, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/pages/_home.css.scss */
+  .access a {
     padding-bottom: 1em; }
 
 /* line 1, /Users/Charlou/Documents/CODE/BETA/lea_raphael/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
