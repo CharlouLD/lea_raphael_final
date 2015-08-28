@@ -88,29 +88,25 @@
       <div class="col-md-6 padded-light">
         <div class="hotel">
           <h2>Grand Hotel de la Casa Rosa</h2>
-          <img src="images/cala.jpg" width="100%">
-          <a href="http://bit.ly/1fO4K7S">Réserver</a>
+            <a href="http://bit.ly/1fO4K7S"><img src="images/cala.jpg" width="100%"></a>
         </div>
       </div>
       <div class="col-md-6 padded-light">
         <div class="hotel">
           <h2>Domaine de Caranella</h2>
-          <img src="images/caranella.jpg" width="100%">
-          <a href="http://bit.ly/1JA0vZB">Réserver</a>
+            <a href="http://bit.ly/1JA0vZB"><img src="images/caranella.jpg" width="100%"></a>
         </div>
       </div>
       <div class="col-md-6 padded-light">
         <div class="hotel">
           <h2>Le Kilina</h2>
-          <img src="images/kilina.jpg" width="100%">
-          <a href="http://bit.ly/1ha5iWz">Réserver</a>
+          <a href="http://bit.ly/1ha5iWz"><img src="images/kilina.jpg" width="100%"></a>
         </div>
       </div>
       <div class="col-md-6 padded-light">
         <div class="hotel">
           <h2>Villa</h2>
-          <img src="images/villa.jpg" width="100%">
-          <a href="http://lesvillasdugolfe.com/fr">Réserver</a>
+          <a href="http://lesvillasdugolfe.com/fr"><img src="images/villa.jpg" width="100%"></a>
         </div>
       </div>
     </div>
@@ -129,7 +125,6 @@
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
   </div>
 </div>
-
 
 
 
@@ -154,4 +149,25 @@
     </div>
 
   </body>
+  <script>
+  $(function() {
+    // Smooth scroll
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+
+    // Scroll reveal
+    window.sr = new scrollReveal();
+
+  });
+  </script>
 </html>

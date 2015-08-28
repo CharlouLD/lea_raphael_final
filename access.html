@@ -77,7 +77,7 @@
     <p>24.06.2016</p>
     <p>CORSE</p>
   </div>
-  <a href="#acces"><i class="fa fa-angle-down fa-6 pulse scroll-btn"></i></a>
+  <a href="#hotels"><i class="fa fa-angle-down fa-6 pulse scroll-btn"></i></a>
 </div>
 
 <!-- <div class="bg-primary" id="acces">
@@ -171,4 +171,25 @@ var marker = new google.maps.Marker({
     </div>
 
   </body>
+  <script>
+  $(function() {
+    // Smooth scroll
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+
+    // Scroll reveal
+    window.sr = new scrollReveal();
+
+  });
+  </script>
 </html>
